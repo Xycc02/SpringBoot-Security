@@ -9,7 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 /**
  * @Author: xuyuchao
  * @Date: 2022-05-21-13:50
- * @Description:    AOP思想
+ * @Description:    AOP思想,横切进去
  */
 @EnableWebSecurity//这个注解是开启WebSecurity模式
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
